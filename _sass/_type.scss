@@ -130,8 +130,13 @@ article ol li {
   margin-bottom: 1em;
 }
 
-.introduction p:first-child {
+.lead {
   font-size: $header-2-font-size;
+  line-height: adjust-line-height($header-2-font-size);
+}
+
+.lead-follow {
+  font-size: $header-3-font-size;
   line-height: adjust-line-height($header-2-font-size);
 }
 
