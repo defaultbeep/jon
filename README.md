@@ -1,3 +1,3 @@
-Personal homepage built with `yo eighty9`
+Personal homepage
 
 😂😂
