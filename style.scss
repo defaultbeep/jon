@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.618em;
   font-family: 'Open Sans', sans-serif;
   color: rgb(255,255,255);
@@ -27,51 +27,42 @@ ul {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 18px;
-  line-height: 1.618em;
-}
-
 div.introduction {
-  font-size: 23px;
-  line-height: 1.618em;
-  padding: 3em 1em 4em;
 
-  @media (min-width: 456px) and (max-width: 587px) {
+  padding: 1.5em 1em 2em;
+
+  @media (min-width: 456px) and (max-width: 609px) {
+    padding: 1.5em 1em 2em;
     font-size: 27px;
+    line-height: 1.618em;
   }
 
-  @media (min-width: 588px) and (max-width: 637px) {
-    font-size: 31px;
+  @media (min-width: 484px) and (max-width: 767px) {
+    padding: 1.5em 2em 2em;
   }
 
-
-  @media (min-width: 638px) and (max-width: 914px) {
-    font-size: 38px;
+  @media (min-width: 610px) and (max-width: 767px) {
+    font-size: 29px;
+    line-height: 1.618em;
   }
 
-  @media (min-width: 915px) {
+  @media (min-width: 768px) {
+    padding: 3em 2em 3em;
+    font-size: 34px;
+    line-height: 1.618em;
+    //font-size: 42px;
+  }
+
+  @media (min-width: 1340px) {
     font-size: 42px;
+    line-height: 1.618em;
   }
 
 }
 
 div.social {
 
-  font-size: 20px;
-
-  @media (min-width: 456px) and (max-width: 587px) {
-    font-size: 20px;
-  }
-
-  @media (min-width: 588px) {
-    font-size: 24px;
-  }
+  padding: 0em auto 3em;
 
   ul {
     display: flex;
@@ -85,6 +76,7 @@ div.social {
     flex: 1;
     text-align: center;
     display: block;
+    padding-bottom: .4em;
   }
 
   li a {
