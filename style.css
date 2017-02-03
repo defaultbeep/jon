@@ -26,17 +26,17 @@ div.introduction {
       padding: 1.5em 1em 2em;
       font-size: 27px;
       line-height: 1.618em; } }
-  @media (min-width: 484px) and (max-width: 767px) {
+  @media (min-width: 484px) and (max-width: 810px) {
     div.introduction {
-      padding: 1.5em 2em 2em; } }
-  @media (min-width: 610px) and (max-width: 767px) {
+      padding: 2em 2em 2em; } }
+  @media (min-width: 610px) and (max-width: 810px) {
     div.introduction {
       font-size: 29px;
       line-height: 1.618em; } }
   @media (min-width: 768px) {
     div.introduction {
       padding: 3em 2em 3em;
-      font-size: 34px;
+      font-size: 36px;
       line-height: 1.618em; } }
   @media (min-width: 1340px) {
     div.introduction {
