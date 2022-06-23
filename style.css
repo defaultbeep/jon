@@ -1,67 +1,55 @@
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 25px;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0em;
-  padding: 0em; }
-  *:before, *:after, *:before:before, *:before:after, *:after:before, *:after:after {
-    box-sizing: inherit; }
+  padding: 0em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 body {
-  font-size: 23px;
-  line-height: 1.618em;
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background: black;
   color: white;
-  color: black;
-  min-height: 100vh; }
+}
+
+h1 {
+  padding: 1em;
+  font-size: 20px;
+  line-height: 1.618em;
+  max-width: 1614px;
+}
+
+@media (min-width: 350px) {
+  h1 {
+    font-size: 26px;
+    line-height: 1.618em;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 52px;
+    line-height: 1.618em;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 72px;
+    line-height: 1.618em;
+  }
+}
 
 ul {
-  list-style: none; }
-
-div.introduction {
-  padding: 1.5em 1em 2em; }
-  @media (min-width: 456px) and (max-width: 609px) {
-    div.introduction {
-      padding: 1.5em 1em 2em;
-      font-size: 27px;
-      line-height: 1.618em; } }
-  @media (min-width: 484px) and (max-width: 810px) {
-    div.introduction {
-      padding: 2em 2em 2em; } }
-  @media (min-width: 610px) and (max-width: 810px) {
-    div.introduction {
-      font-size: 29px;
-      line-height: 1.618em; } }
-  @media (min-width: 768px) {
-    div.introduction {
-      padding: 3em 2em 3em;
-      font-size: 36px;
-      line-height: 1.618em; } }
-  @media (min-width: 1340px) {
-    div.introduction {
-      font-size: 42px;
-      line-height: 1.618em; } }
-
-div.social {
-  padding: 0em auto 3em; }
-  div.social ul {
-    display: flex;
-    flex-direction: column; }
-    @media (min-width: 588px) {
-      div.social ul {
-        flex-direction: row; } }
-  div.social li {
-    flex: 1;
-    text-align: center;
-    display: block;
-    padding-bottom: .4em; }
-  div.social li a {
-    color: white;
-    text-decoration: none;
-    display: inline-block; }
-    div.social li a:hover {
-      color: white;
-      text-decoration: underline; }
-
-/*# sourceMappingURL=style.css.map */
+  list-style: none;
+}

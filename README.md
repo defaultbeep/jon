@@ -1,6 +1,4 @@
 Personal homepage
 
-😂😂
-
-http://jonathangoodman.is
+http://jonathangoodman.xyz
 
