@@ -15,7 +15,8 @@ body {
   align-items: center;
 }
 
-header {
+header,
+footer {
   padding: 4em 1em;
   max-width: 1526px;
 }
